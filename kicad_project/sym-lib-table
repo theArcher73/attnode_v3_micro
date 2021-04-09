@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name SM04B-SRSS-TB_LF__SN_)(type Legacy)(uri ${KIPRJMOD}/libs/conn/JST-SM04B-SRSS-TB_LF__SN/SM04B-SRSS-TB_LF__SN_.lib)(options "")(descr ""))
+  (lib (name MCU_Microchip_ATtiny)(type Legacy)(uri ${KIPRJMOD}/libs/controller/MCU_Microchip_ATtiny/ATTiny3216-SF/MCU_Microchip_ATtiny.lib)(options "")(descr ""))
+  (lib (name attnode_logo_sml_silk)(type Legacy)(uri ${KIPRJMOD}/libs/logos_attnode/attnode_logo_sml_silk.lib)(options "")(descr ""))
+  (lib (name RFM95W-868S2)(type Legacy)(uri ${KIPRJMOD}/libs/lora/RFM95w_868S2/RFM95W-868S2.lib)(options "")(descr ""))
+)

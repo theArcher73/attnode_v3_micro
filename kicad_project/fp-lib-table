@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name JST-SM04B-SRSS-TB_LF__SN)(type KiCad)(uri ${KIPRJMOD}/libs/conn/JST-SM04B-SRSS-TB_LF__SN)(options "")(descr ""))
+  (lib (name logos_attnode)(type KiCad)(uri ${KIPRJMOD}/libs/logos_attnode)(options "")(descr ""))
+  (lib (name RFM95w_868S2)(type KiCad)(uri ${KIPRJMOD}/libs/lora/RFM95w_868S2)(options "")(descr ""))
+  (lib (name ATTiny3216-SF)(type KiCad)(uri ${KIPRJMOD}/libs/controller/MCU_Microchip_ATtiny/ATTiny3216-SF)(options "")(descr ""))
+  (lib (name pads)(type KiCad)(uri ${KIPRJMOD}/libs/conn/pads)(options "")(descr ""))
+)
