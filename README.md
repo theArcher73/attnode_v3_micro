@@ -7,6 +7,6 @@ The RFM95w must be soldered on J1 and J2 above the ATTiny. This Node can only op
 
 The pin on the antenna connector of the RFM must not be applied so that you can attach a small helix directly to the RFM.
 
-![front view](https://github.com/theArcher73/attnode_v3_micro/blob/main/kicad_project/img/front.png) *front view*
+![front view](https://github.com/theArcher73/attnode_v3_micro/blob/main/kicad_project/img/front.png)
 
-![Rear view](https://github.com/theArcher73/attnode_v3_micro/blob/main/kicad_project/img/rear.png) *rear view*
+![Rear view](https://github.com/theArcher73/attnode_v3_micro/blob/main/kicad_project/img/rear.png)
