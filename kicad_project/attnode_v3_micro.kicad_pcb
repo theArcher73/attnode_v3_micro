@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 14)
     (tracks 103)
     (zones 0)
     (modules 14)
@@ -21,16 +21,16 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user)
-    (41 Cmts.User user)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
-    (44 Edge.Cuts user)
-    (45 Margin user)
-    (46 B.CrtYd user)
-    (47 F.CrtYd user)
-    (48 B.Fab user)
-    (49 F.Fab user)
+    (40 Dwgs.User user hide)
+    (41 Cmts.User user hide)
+    (42 Eco1.User user hide)
+    (43 Eco2.User user hide)
+    (44 Edge.Cuts user hide)
+    (45 Margin user hide)
+    (46 B.CrtYd user hide)
+    (47 F.CrtYd user hide)
+    (48 B.Fab user hide)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -55,7 +55,7 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1 1)
+    (pad_size 2.5 1.5)
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
@@ -486,7 +486,7 @@
       (xy -0.762 -0.889)) (layer B.SilkS) (width 0.01))
   )
 
-  (module pads:SolderWirePad_1x01_SMD_1.5x2.5mm (layer B.Cu) (tedit 60708E4E) (tstamp 6070F80D)
+  (module pads:SolderWirePad_1x01_SMD_1.5x2.5mm (layer B.Cu) (tedit 6098D309) (tstamp 6070F80D)
     (at 55.7 51.5 270)
     (path /60712676)
     (fp_text reference PRG1.1 (at 0 -0.5 270) (layer B.SilkS) hide
@@ -495,11 +495,11 @@
     (fp_text value Conn_01x01_Male (at 0.11 -1.85 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 smd roundrect (at 0 0 270) (size 2.5 1.5) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.067)
+    (pad 1 smd roundrect (at 0 0 270) (size 2.5 1.5) (layers B.Cu B.Mask) (roundrect_rratio 0.067)
       (net 7 RST))
   )
 
-  (module pads:SolderWirePad_1x01_SMD_1.5x2.5mm (layer B.Cu) (tedit 60708E4E) (tstamp 6070F812)
+  (module pads:SolderWirePad_1x01_SMD_1.5x2.5mm (layer B.Cu) (tedit 6098D301) (tstamp 6070F812)
     (at 57.93 51.46 270)
     (path /60712F28)
     (fp_text reference PRG1.2 (at 0 -0.5 270) (layer B.SilkS) hide
@@ -508,11 +508,11 @@
     (fp_text value Conn_01x01_Male (at 0.11 -1.85 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 smd roundrect (at 0 0 270) (size 2.5 1.5) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.067)
+    (pad 1 smd roundrect (at 0 0 270) (size 2.5 1.5) (layers B.Cu B.Mask) (roundrect_rratio 0.067)
       (net 14 RX))
   )
 
-  (module pads:SolderWirePad_1x01_SMD_1.5x2.5mm (layer B.Cu) (tedit 60708E4E) (tstamp 6070F817)
+  (module pads:SolderWirePad_1x01_SMD_1.5x2.5mm (layer B.Cu) (tedit 6098D2F8) (tstamp 6070F817)
     (at 60.12 51.46 270)
     (path /60713490)
     (fp_text reference PRG1.3 (at 0 -0.5 270) (layer B.SilkS) hide
@@ -521,7 +521,7 @@
     (fp_text value Conn_01x01_Male (at 0.11 -1.85 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 smd roundrect (at 0 0 270) (size 2.5 1.5) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.067)
+    (pad 1 smd roundrect (at 0 0 270) (size 2.5 1.5) (layers B.Cu B.Mask) (roundrect_rratio 0.067)
       (net 13 TX))
   )
 
@@ -530,7 +530,7 @@
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /6072C109)
-    (fp_text reference J3 (at 0.19 1.73 -90) (layer B.SilkS)
+    (fp_text reference J3 (at 0.01 1.54 -90) (layer B.SilkS)
       (effects (font (size 0.9 0.9) (thickness 0.09)) (justify mirror))
     )
     (fp_text value Conn_01x04_Male (at 0 -9.95 -90) (layer B.Fab)
@@ -551,8 +551,8 @@
     (fp_line (start -1.8 -9.4) (end 1.8 -9.4) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.8 -9.4) (end 1.8 1.8) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.8 1.8) (end -1.8 1.8) (layer B.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 -3.81) (layer B.Fab)
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text user %R (at 0.89 -9.02) (layer F.SilkS)
+      (effects (font (size 0.6 0.6) (thickness 0.07)))
     )
     (pad 4 thru_hole oval (at 0 -7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 12 SDA))
@@ -576,7 +576,7 @@
     (path /5E9FCA2B)
     (attr smd)
     (fp_text reference U1 (at -0.09 -7.04) (layer F.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.07)))
+      (effects (font (size 0.6 0.6) (thickness 0.07)))
     )
     (fp_text value ATtiny3216-S (at 0 7.35) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -758,8 +758,8 @@
     (descr "Through hole straight pin header, 1x08, 2.00mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.00mm single row")
     (path /60716118)
-    (fp_text reference J1 (at 0 -2.06) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference J1 (at -1.98 14.1) (layer B.SilkS)
+      (effects (font (size 0.75 0.75) (thickness 0.08)) (justify mirror))
     )
     (fp_text value Conn_01x08_Male (at 0 16.06) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -808,8 +808,8 @@
     (descr "Through hole straight pin header, 1x08, 2.00mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.00mm single row")
     (path /60717B52)
-    (fp_text reference J2 (at 0 -2.06) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference J2 (at 1.83 14.05) (layer B.SilkS)
+      (effects (font (size 0.75 0.75) (thickness 0.08)) (justify mirror))
     )
     (fp_text value Conn_01x08_Male (at 0 16.06) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -923,6 +923,14 @@
     )
   )
 
+  (gr_text J2 (at 63.71 65.04 90) (layer F.SilkS) (tstamp 6098EF61)
+    (effects (font (size 0.6 0.6) (thickness 0.07)))
+  )
+  (gr_text J1 (at 52.32 65.05 90) (layer F.SilkS)
+    (effects (font (size 0.6 0.6) (thickness 0.07)))
+  )
+  (gr_circle (center 52.12 50.73) (end 52.198102 50.73) (layer B.SilkS) (width 0.12) (tstamp 6098E664))
+  (gr_circle (center 69.361898 60.43) (end 69.44 60.43) (layer B.SilkS) (width 0.12) (tstamp 6098D6CE))
   (gr_circle (center 63.54 62.31) (end 63.49 62.37) (layer F.SilkS) (width 0.12) (tstamp 6071633D))
   (gr_circle (center 52.12 50.73) (end 52.07 50.79) (layer F.SilkS) (width 0.12))
   (gr_text TX (at 60.22 53.11) (layer B.SilkS)
@@ -934,7 +942,7 @@
   (gr_text RST (at 55.71 53.11) (layer B.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.07)) (justify mirror))
   )
-  (gr_text "µ-attno.de V3" (at 52.79 55.43 90) (layer B.SilkS)
+  (gr_text "µ-attno.de \nV3.0" (at 53.38 57.27 90) (layer B.SilkS)
     (effects (font (size 0.9 0.9) (thickness 0.1)) (justify mirror))
   )
   (gr_line (start 50 50) (end 50 66) (layer Edge.Cuts) (width 0.05))
