@@ -11,3 +11,4 @@ The pin in the pinheader J2 on the antenna port of the RFM should not be applied
  front View | rear view
  ---------- | -----------
 ![front view](https://github.com/theArcher73/attnode_v3_micro/blob/main/kicad_project/img/front.png) | ![Rear view](https://github.com/theArcher73/attnode_v3_micro/blob/main/kicad_project/img/rear.png)
+![front view](https://github.com/theArcher73/attnode_v3_micro/blob/main/kicad_project/img/front_1.png) | ![Rear view](https://github.com/theArcher73/attnode_v3_micro/blob/main/kicad_project/img/rear_1.png)
