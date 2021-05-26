@@ -3,9 +3,13 @@
 
 A small functional LORA-Node based on the [attno.de v3](https://attno.de) and sg112a-CO<sub>2</sub>-Sensor
 
-The RFM95w must be soldered on J1 and J2 above the ATTiny. This Node can only operated with 3.3V operating voltage, the power-connection is relized over the I²C-Haeder. The UART bus (RX/TX) is available via the pads of the Progheader.
+The RFM95w must be soldered with 2 2mm Pin-Haeder above the ATTiny. This Node can only operated with 3.3V operating voltage, the power-connection is relized over the I²C-Haeder. The UART bus (RX/TX) is available via the pads of the Progheader.
 
-The pin in the pinheader J2 on the antenna port of the RFM should not be applied so that you can attach a small helix directly to the RFM.
+Update 26.05.2021 moved the LED to the corner and use a LED with lateral light beam + PCB labeling cleaned.
+
+The right pin for the antenna is marked with an *A*
+
+The pin in the pinheader on the antenna port of the RFM should not be applied so that you can attach a small helix directly to the RFM.
 
 
  front View | rear view
