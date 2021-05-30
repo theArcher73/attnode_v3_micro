@@ -21,7 +21,7 @@ The pin in the pinheader on the antenna port of the RFM should not be applied so
 
 ## Thanks & Acknowledgements:
 
-    the [attno.de project](https://attno.de) as the technological basis for this project
+   the [attno.de project](https://attno.de) as the technological basis for this project
 
 ## Disclaimer
 
