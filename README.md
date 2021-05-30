@@ -19,6 +19,10 @@ The pin in the pinheader on the antenna port of the RFM should not be applied so
 
 ![front_view](https://github.com/theArcher73/attnode_v3_micro/blob/main/kicad_project/img/ima_0d42fd3.jpeg)
 
+## Thanks & Acknowledgements:
+
+    the [attno.de project](https://attno.de) as the technological basis for this project
+
 ## Disclaimer
 
 The documentation of the attnode_v3_micro is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
