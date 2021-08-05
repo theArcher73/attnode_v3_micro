@@ -5,11 +5,11 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 1
 Title "µATTNode V3"
-Date "2021-04-09"
-Rev "0.1"
+Date "2021-06-26"
+Rev "1.1"
 Comp ""
 Comment1 "Micro-Node based on @Seiichiro0185's attno.de V3"
-Comment2 ""
+Comment2 "LED moved to uppe edge"
 Comment3 ""
 Comment4 ""
 $EndDescr
